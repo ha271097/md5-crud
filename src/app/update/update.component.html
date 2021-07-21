@@ -1,0 +1,15 @@
+<h3>Update Product</h3>
+<form>
+    <span> ID</span>
+<input [(ngModel)]="id" value="{{id}}" name="id" type="hidden">
+
+<span>Name</span>
+<input [(ngModel)]="name" name="name">
+
+<span>Price</span>
+<input [(ngModel)]="price" name="price">
+
+<span>Des</span>
+<input [(ngModel)]="des" name = "des">
+<button (click)="update()" type="submit"> submit</button>
+</form>
